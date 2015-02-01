@@ -62,14 +62,14 @@
                         <a class="page-scroll" href="#about">CHALLENGE</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#team">SMILE</a>
                     </li>
-                    <li>
+                   <!-- <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                      <li>
                         <a class="page-scroll" href="#services">CHALLENGE</a>
-                    </li>
+                    </li>-->
 
                     <li class="blueResponsive">
                         <a class="page-scroll" href=signin/login.php>SIGNIN</a>
@@ -89,7 +89,7 @@
                             <div class="intro-heading">ONE MISSION EVERYDAY</div>
 
                 <div class="intro-lead-in">Perfect for the dull moments in your busy schedule. Challenge and complete with friends!</div>
-                <a href="#services" class="page-scroll btn btn-xl">Get Started</a>
+                <a href="#portfolio" class="page-scroll btn btn-xl">Get Started</a>
             </div>
         </div>
     </header>
@@ -112,11 +112,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/11.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>Vegatables</h4>
+                        <p class="text-muted">Eat Green</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -126,11 +126,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/watch_sunset.jpeg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Closer, together</h4>
+                        <p class="text-muted">View of the Bay</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -140,7 +140,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="img/1.jpeg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Treehouse</h4>
@@ -279,16 +279,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h2 class="section-heading">SMILE</h2>
                     <h3 class="section-subheading text-muted"> </h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="#" class="img-responsive img-circle" alt="">
+                <div class="col-sm-4 center-div">
+                    <div class="team-member btn btn-primary">
+                       <!-- <img src="img/team/1.jpg" class="img-responsive img-circle" alt=""> -->
+
                         <h4></h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <p class="text-muted">HEALTH</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -299,11 +300,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="#" class="img-responsive img-circle" alt="">
+
+                <div class="col-sm-4 center-div">
+                    <div class="team-member btn btn-success" >
+                        
                         <h4></h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <p class="text-muted">RELATIONSHIP</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -314,11 +316,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="#" class="img-responsive img-circle" alt="">
+                <div class="col-sm-4 center-div">
+                    <div class="team-member btn btn-info">
+                        <div class="img-responsive circle-text" style="margin: 0 auto;"><div></div></div>
                         <h4></h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <p class="text-muted">ASPIRATION</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -339,52 +341,15 @@
     </section>
 
   
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">We want to hear from you</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm"  action=mail/contact_me.php>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div style="text-align:center">
+<ul class="nav nav-pills" style="display:inline-block">
+  <li role="presentation"><a href="about.html">ABOUT</a></li>
+  <li role="presentation"><a href="team.html">TEAM</a></li>
+  <li role="presentation"><a href="contact.html">CONTACT</a></li>
+</ul></div>
 
     <footer>
-        <div class="container">
+        <div>
             <div class="row">
                 <div class="col-md-4">
                     <span class="copyright">Copyright &copy; PineApple 2014</span>
@@ -421,7 +386,7 @@
                             <!-- Project Details Go Here -->
                             <h2>Project Name</h2>
                             <p class="item-intro text-muted"> </p>
-                            <img class="img-responsive" src="img/portfolio/roundicons-free.png" alt="">
+                            <img class="img-responsive" src="img/11.jpg" alt="">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                             <p>
                                 <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
@@ -453,7 +418,7 @@
                         <div class="modal-body">
                             <h2>Project Heading</h2>
                             <p class="item-intro text-muted"> </p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                            <img class="img-responsive img-centered" src="img/watch_sunset.jpeg" alt="">
                             <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
                             <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
@@ -480,7 +445,7 @@
                             <!-- Project Details Go Here -->
                             <h2>Project Name</h2>
                             <p class="item-intro text-muted"> </p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <img class="img-responsive img-centered" src="img/1.jpeg" alt="">
                             <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
                             <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
