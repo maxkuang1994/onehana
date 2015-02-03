@@ -96,3 +96,20 @@ a.blueResponsive, .blueResponsive:hover{
   text-align:center;
 }
 
+.h4Text {
+  margin-top: -40px;
+  text-decoration: none;
+  text-align:center;
+  display: inline-block;
+  position: relative;
+}
+#portfolio .portfolio-item .portfolio-caption{
+
+  padding:10px;
+}
+#portfolio .portfolio-item .portfolio-caption .h4Text{
+  margin-top: -40px;
+
+}
+}
+

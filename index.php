@@ -115,7 +115,7 @@
                         <img src="img/11.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>EAT GREEN</h4>
+                        <h4 class="btn btn-success h4Text">EAT GREEN</h4>
                         <p class="text-muted">The best spring recipe</p>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
                         <img src="img/watch_sunset.jpeg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>BRING US CLOSER</h4>
+                        <h4 class=" btn btn-warning h4Text">BRING US CLOSER</h4>
                         <p class="text-muted">View of the Bay</p>
                     </div>
                 </div>
@@ -142,8 +142,8 @@
                         </div>
                         <img src="img/1.jpeg" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption">
-                        <h4>BUSY DAYS</h4>
+                    <div class="portfolio-caption ">
+                        <h4 class="btn btn-info h4Text" >BUSY DAYS</h4>
                         <p class="text-muted">Preparing for Midterms</p>
                     </div>
                 </div>
