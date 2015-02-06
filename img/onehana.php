@@ -1,39 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- saved from url=(0037)http://localhost:3000/login.php#about -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" class="__meteor-css__" href="./onehana_files/50af99f2d3cbeca339f415c19cf8dadd2a64a54e.css">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>HANA</title>
+<script type="text/javascript">__meteor_runtime_config__ = {"meteorRelease":"METEOR@1.0.3.1","ROOT_URL":"http://localhost:3000/","ROOT_URL_PATH_PREFIX":"","appId":"m4ojk31k7ctknxb6j5t","autoupdateVersion":"50731442a06b1f5d06d22a037578f7d3d2db5838","autoupdateVersionRefreshable":"a0f8e731b3b1aed31ee4ec4ef697734ac36e6767","autoupdateVersionCordova":"none"};</script>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script type="text/javascript" src="./onehana_files/underscore.js"></script>
+  <script type="text/javascript" src="./onehana_files/meteor.js"></script>
+  <script type="text/javascript" src="./onehana_files/json.js"></script>
+  <script type="text/javascript" src="./onehana_files/base64.js"></script>
+  <script type="text/javascript" src="./onehana_files/ejson.js"></script>
+  <script type="text/javascript" src="./onehana_files/logging.js"></script>
+  <script type="text/javascript" src="./onehana_files/reload.js"></script>
+  <script type="text/javascript" src="./onehana_files/tracker.js"></script>
+  <script type="text/javascript" src="./onehana_files/random.js"></script>
+  <script type="text/javascript" src="./onehana_files/retry.js"></script>
+  <script type="text/javascript" src="./onehana_files/check.js"></script>
+  <script type="text/javascript" src="./onehana_files/id-map.js"></script>
+  <script type="text/javascript" src="./onehana_files/ordered-dict.js"></script>
+  <script type="text/javascript" src="./onehana_files/geojson-utils.js"></script>
+  <script type="text/javascript" src="./onehana_files/minimongo.js"></script>
+  <script type="text/javascript" src="./onehana_files/ddp.js"></script>
+  <script type="text/javascript" src="./onehana_files/follower-livedata.js"></script>
+  <script type="text/javascript" src="./onehana_files/application-configuration.js"></script>
+  <script type="text/javascript" src="./onehana_files/insecure.js"></script>
+  <script type="text/javascript" src="./onehana_files/mongo.js"></script>
+  <script type="text/javascript" src="./onehana_files/autoupdate.js"></script>
+  <script type="text/javascript" src="./onehana_files/meteor-platform.js"></script>
+  <script type="text/javascript" src="./onehana_files/autopublish.js"></script>
+  <script type="text/javascript" src="./onehana_files/jquery.js"></script>
+  <script type="text/javascript" src="./onehana_files/mizzao_bootstrap-3.js"></script>
+  <script type="text/javascript" src="./onehana_files/webapp.js"></script>
+  <script type="text/javascript" src="./onehana_files/deps.js"></script>
+  <script type="text/javascript" src="./onehana_files/reactive-dict.js"></script>
+  <script type="text/javascript" src="./onehana_files/session.js"></script>
+  <script type="text/javascript" src="./onehana_files/livedata.js"></script>
+  <script type="text/javascript" src="./onehana_files/htmljs.js"></script>
+  <script type="text/javascript" src="./onehana_files/observe-sequence.js"></script>
+  <script type="text/javascript" src="./onehana_files/reactive-var.js"></script>
+  <script type="text/javascript" src="./onehana_files/blaze.js"></script>
+  <script type="text/javascript" src="./onehana_files/ui.js"></script>
+  <script type="text/javascript" src="./onehana_files/templating.js"></script>
+  <script type="text/javascript" src="./onehana_files/spacebars.js"></script>
+  <script type="text/javascript" src="./onehana_files/launch-screen.js"></script>
+  <script type="text/javascript" src="./onehana_files/global-imports.js"></script>
+  <script type="text/javascript" src="./onehana_files/template.index.js"></script>
+  <script type="text/javascript" src="./onehana_files/onehana.js"></script>
+  <script type="text/javascript" src="./onehana_files/router.js"></script>
 
-    <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-    <link href="css/PineApp.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<title>onehana</title>
 
-</head>
+   <!-- Custom Fonts -->
+    <link href="./onehana_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="./onehana_files/css" rel="stylesheet" type="text/css">
+    <link href="./onehana_files/css(1)" rel="stylesheet" type="text/css">
+    <link href="./onehana_files/css(2)" rel="stylesheet" type="text/css">
+    <link href="./onehana_files/css(3)" rel="stylesheet" type="text/css">
+<style type="text/css"></style></head>
+<body>
 
-<body id="page-top" class="index">
+
+
+<h1 class="btn btn-success">Welcome to Meteor!</h1>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -46,26 +77,33 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">HANA</a>
+                <a class="navbar-brand page-scroll" href="http://localhost:3000/login.php#page-top">HANA</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="http://localhost:3000/login.php#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Today</a>
+                        <a class="page-scroll" href="http://localhost:3000/login.php#portfolio">Today</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">CHALLENGE</a>
+                        <a class="page-scroll" href="./onehana_files/onehana.html">CHALLENGE</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">SMILE</a>
+                        <a class="page-scroll" href="http://localhost:3000/login.php#team">SMILE</a>
                     </li>
+                   <!-- <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="#services">CHALLENGE</a>
+                    </li>-->
+
                     <li class="blueResponsive">
-                        <a class="page-scroll" href=signin/login.php>SIGNIN</a>
+                        <a class="page-scroll" href="http://localhost:3000/login.php">SIGNIN</a>
                     </li>
 
                 </ul>
@@ -75,6 +113,8 @@
         <!-- /.container-fluid -->
     </nav>
 
+
+
     <!-- Header -->
     <header style="background:#0B8CCB">
         <div class="container">
@@ -82,7 +122,7 @@
                             <div class="intro-heading">ONE MISSION EVERYDAY</div>
 
                 <div class="intro-lead-in">Perfect for the dull moments in your busy schedule. Challenge and complete with friends!</div>
-                <a href="#portfolio" class="page-scroll btn btn-xl">Get Started</a>
+                <a href="http://localhost:3000/login.php#portfolio" class="page-scroll btn btn-xl">Get Started</a>
             </div>
         </div>
     </header>
@@ -99,13 +139,13 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="http://localhost:3000/login.php#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/11.jpg" class="img-responsive" alt="">
+                        <img src="./onehana_files/11.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4 class="btn btn-success h4Text">EAT GREEN</h4>
@@ -113,13 +153,13 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="http://localhost:3000/login.php#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/watch_sunset.jpeg" class="img-responsive" alt="">
+                        <img src="./onehana_files/watch_sunset.jpeg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4 class=" btn btn-warning h4Text">BRING US CLOSER</h4>
@@ -127,27 +167,27 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="http://localhost:3000/login.php#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/1.jpeg" class="img-responsive" alt="">
+                        <img src="./onehana_files/1.jpeg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption ">
-                        <h4 class="btn btn-info h4Text" >BUSY DAYS</h4>
+                        <h4 class="btn btn-info h4Text">BUSY DAYS</h4>
                         <p class="text-muted">Preparing for Midterms</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="http://localhost:3000/login.php#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/mindfulness.jpeg" max-height=250px class="img-responsive" alt="">
+                        <img src="./onehana_files/mindfulness.jpeg" max-height="250px" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>MEDIDATION</h4>
@@ -155,13 +195,13 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <a href="http://localhost:3000/login.php#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/meetingfriends.jpg" class="img-responsive" alt="">
+                        <img src="./onehana_files/meetingfriends.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>MORNING COFFEE</h4>
@@ -169,13 +209,13 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="http://localhost:3000/login.php#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/stepbystep.jpg" class="img-responsive" alt="">
+                        <img src="./onehana_files/stepbystep.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>PURSUING GOALS</h4>
@@ -200,7 +240,7 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="./onehana_files/1.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -214,7 +254,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                                <img class="img-circle img-responsive" src="./onehana_files/2.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -228,7 +268,7 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                                <img class="img-circle img-responsive" src="./onehana_files/3.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -242,7 +282,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                                <img class="img-circle img-responsive" src="./onehana_files/4.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -284,27 +324,27 @@
                         <h4></h4>
                         <p class="text-muted">HEALTH</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa "></i></a>
+                            <li><a href="http://localhost:3000/login.php#"><i class="fa "></i></a>
                             </li>
-                            <li><a href="#"><i class="fa "></i></a>
+                            <li><a href="http://localhost:3000/login.php#"><i class="fa "></i></a>
                             </li>
-                            <li><a href="#"><i class="fa "></i></a>
+                            <li><a href="http://localhost:3000/login.php#"><i class="fa "></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col-sm-4 center-div">
-                    <div class="team-member btn btn-warning" >
+                    <div class="team-member btn btn-warning">
                         
                         <h4></h4>
                         <p class="text-muted">RELATIONSHIP</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa "></i></a>
+                            <li><a href="http://localhost:3000/login.php#"><i class="fa "></i></a>
                             </li>
-                            <li><a href="#"><i class="fa "></i></a>
+                            <li><a href="http://localhost:3000/login.php#"><i class="fa "></i></a>
                             </li>
-                            <li><a href="#"><i class="fa "></i></a>
+                            <li><a href="http://localhost:3000/login.php#"><i class="fa "></i></a>
                             </li>
                         </ul>
                     </div>
@@ -315,11 +355,11 @@
                         <h4></h4>
                         <p class="text-muted">ASPIRATION</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa"></i></a>
+                            <li><a href="http://localhost:3000/login.php#"><i class="fa"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa"></i></a>
+                            <li><a href="http://localhost:3000/login.php#"><i class="fa"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa"></i></a>
+                            <li><a href="http://localhost:3000/login.php#"><i class="fa"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -336,23 +376,23 @@
   
     <div style="text-align:center">
 <ul class="nav nav-pills" style="display:inline-block">
-  <li role="presentation"><a href="about.html">ABOUT</a></li>
-  <li role="presentation"><a href="team.html">TEAM</a></li>
-  <li role="presentation"><a href="contact.html">CONTACT</a></li>
+  <li role="presentation"><a href="http://localhost:3000/about.html">ABOUT</a></li>
+  <li role="presentation"><a href="http://localhost:3000/team.html">TEAM</a></li>
+  <li role="presentation"><a href="http://localhost:3000/contact.html">CONTACT</a></li>
 </ul></div>
 
     <footer>
         <div>
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; PineApple 2014</span>
+                    <span class="copyright">Copyright © PineApple 2014</span>
                 </div>
          
                  <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        <li><a href="http://localhost:3000/login.php#">Privacy Policy</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li><a href="http://localhost:3000/login.php#">Terms of Use</a>
                         </li>
                     </ul>
                 </div>
@@ -377,17 +417,16 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2 >Spring recipe</h2>
+                            <h2>Project Name</h2>
                             <p class="item-intro text-muted"> </p>
-                            <img class="img-responsive" src="img/11.jpg" alt="">
-                            <p class="textSizeTwenty">It's February. I have often heard that it's difficult to maintain a heathy lifestyle. Spring is the best time to start your health journey. Eat Green, be healthier.</p>
-                            <p class="textSizeTwenty">
-                               
-                             </p>
+                            <img class="img-responsive" src="./onehana_files/11.jpg" alt="">
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <p>
+                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
                             <ul class="list-inline">
-                                <li>Date: Feb 2015</li>
-                                <li>By: Max </li>
-                                <li><mark>Category</mark>: Health Food Eating habit</li>
+                                <li>Date: July 2014</li>
+                                <li>Client: Round Icons</li>
+                                <li>Category: Graphic Design</li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -410,17 +449,11 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Enjoying the Sunrise Together</h2>
+                            <h2>Project Heading</h2>
                             <p class="item-intro text-muted"> </p>
-                            <img class="img-responsive img-centered" src="img/watch_sunset.jpeg" alt="">
-                            <p class="textSizeTwenty"> A small positive thought in the morning with your partner can change the whole day. There are so many tips for us to learn for cultivating relationships. Let's try this one: drive and enjoy today's sunrise. 
-                            </p>
-                                    <ul class="list-inline">
-                                <li>Date: Feb 2015</li>
-                                <li>By: Alex</li>
-                                <li><mark>Category</mark>: Relationship Love Sunrise</li>
-                            </ul>
-
+                            <img class="img-responsive img-centered" src="./onehana_files/watch_sunset.jpeg" alt="">
+                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -443,17 +476,11 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Organize and Prepare for Midtems</h2>
+                            <h2>Project Name</h2>
                             <p class="item-intro text-muted"> </p>
-                            <img class="img-responsive img-centered" src="img/1.jpeg" alt="">
-                            <p class="textSizeTwenty"> “Have you ever paused long enough to ask yourself how you could benefit from being better organized?” There are many benefits for being well organized and I have selected three (3) major benefits to share with you:<br><br> 
-                            Benefit #1: you will be able to be more focused on what you want to achieve.<br>Benefit #2: you will be able to be more productive and do better on your midterms. <br>Benefit #3: you will be able to reduce the clutter in your workspace and reduce your stress levels.
-                            </p>
-                                    <ul class="list-inline">
-                                <li>Date: Feb 2015</li>
-                                <li>By: Daniel</li>
-                                <li><mark>Category</mark>: School Organized Workplace</li>
-                            </ul>
+                            <img class="img-responsive img-centered" src="./onehana_files/1.jpeg" alt="">
+                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -476,16 +503,11 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Pause and Rest for One minute</h2>
+                            <h2>Project Name</h2>
                             <p class="item-intro text-muted"> </p>
-                            <img class="img-responsive img-centered" src="img/mindfulness.jpeg" alt="">
-                            <p class="textSizeTwenty">Meditation is an approach to training the mind, similar to the way that fitness is an approach to training the body. </p>
-                            <p class="textSizeTwenty">SMART Technology is everywhere. Just turn off the screen and rest your mind for one minute with a breath of fresh air. </p>
-                                           <ul class="list-inline">
-                                <li>Date: Feb 2015</li>
-                                <li>By: Alex</li>
-                                <li><mark>Category</mark>: Health Meditation Relax</li>
-
+                            <img class="img-responsive img-centered" src="./onehana_files/mindfulness.jpeg" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -508,17 +530,11 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Coffee - Bring Us Closer</h2>
+                            <h2>Project Name</h2>
                             <p class="item-intro text-muted"> </p>
-                            <img class="img-responsive img-centered" src="img/meetingfriends.jpg" alt="">
-                            <p></p>
-                            <p>Happiness is actually found in simple things. Once you smell the coffee, it's hard for you to go back to sleep. Once you are talking and enjoying a morning coffee with a friend, you would be more excited about the new day  </p>
-                                     <ul class="list-inline">
-                                <li>Date: Feb 2015</li>
-                                <li>By: Daniel</li>
-                                <li><mark>Category</mark>: Morning Friend Love</li>
-                            </ul>
-
+                            <img class="img-responsive img-centered" src="./onehana_files/meetingfriends.jpg" alt="">
+                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -541,17 +557,11 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Dream Big, Do Small</h2>
+                            <h2>Project Name</h2>
                             <p class="item-intro text-muted"> </p>
-                            <img class="img-responsive img-centered" src="img/stepbystep.jpg" alt="">
-                            <p class="textSizeTwenty" >“You are likely to vomit your dreams if you take on too much at a time. Take on goals one at a time and don't over-eat the dreams you have! Dream big, but start small!” </p>
-                            <p class="textSizeTwenty" >Everyone has a dream. My dream is to spread happiness and love. What's yours? </p>
-                                     <ul class="list-inline">
-                                <li>Date: Feb 2015</li>
-                                <li>By: Max</li>
-                                <li><mark>Category</mark>: Goal Dream Career</li>
-                            </ul>
-
+                            <img class="img-responsive img-centered" src="./onehana_files/stepbystep(1).jpg" alt="">
+                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. ItÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s a beautiful template thatÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s designed with the Bootstrap framework in mind.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -572,8 +582,4 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
     <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
-
-</body>
-
-</html>
+    <script src="js/agency.js"></script></body></html>
