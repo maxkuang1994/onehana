@@ -345,7 +345,7 @@
         <div>
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; PineApple 2014</span>
+                    <span class="copyright">Copyright &copy; OneHana 2015</span>
                 </div>
          
                  <div class="col-md-4">
